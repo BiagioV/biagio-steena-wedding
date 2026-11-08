@@ -6,7 +6,7 @@
       "gateTitle": "C’è un invito per te.",
       "openLabel": "Apri l’invito di Biagio e Steena",
       "envelopeAddress": "Per te, con amore",
-      "openHint": "TOCCA IL SIGILLO PER APRIRE",
+      "openHint": "SCEGLI LA LINGUA E APRI L’INVITO",
       "skipIntro": "Entra senza animazione",
       "june2027": "GIUGNO 2027",
       "june": "GIUGNO",
@@ -98,7 +98,7 @@
       "gateTitle": "A little invitation for you.",
       "openLabel": "Open Biagio and Steena’s invitation",
       "envelopeAddress": "For you, with love",
-      "openHint": "TOUCH THE SEAL TO OPEN",
+      "openHint": "CHOOSE A LANGUAGE TO OPEN",
       "skipIntro": "Enter without animation",
       "june2027": "JUNE 2027",
       "june": "JUNE",
@@ -190,7 +190,7 @@
       "gateTitle": "നിങ്ങൾക്കൊരു സ്നേഹക്ഷണം.",
       "openLabel": "Biagioയുടെയും Steenaയുടെയും വിവാഹക്ഷണം തുറക്കുക",
       "envelopeAddress": "നിങ്ങൾക്കായി, സ്നേഹത്തോടെ",
-      "openHint": "ക്ഷണക്കത്ത് തുറക്കാൻ മുദ്രയിൽ തൊടൂ",
+      "openHint": "ക്ഷണക്കത്ത് തുറക്കാൻ ഭാഷ തിരഞ്ഞെടുക്കൂ",
       "skipIntro": "നേരിട്ട് പ്രവേശിക്കുക",
       "june2027": "ജൂൺ 2027",
       "june": "ജൂൺ",
@@ -345,6 +345,11 @@
     }, wait);
   }
   document.getElementById('open-invitation').addEventListener('click', () => openInvitation());
+  document.querySelectorAll('[data-open-lang]').forEach(button => button.addEventListener('click',() => {
+    if (opening) return;
+    setLanguage(button.dataset.openLang);
+    openInvitation();
+  }));
   document.getElementById('skip-intro').addEventListener('click', () => openInvitation(true));
   gate.addEventListener('keydown', event => {
     if (event.key !== 'Tab') return;

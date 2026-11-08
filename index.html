@@ -20,8 +20,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Jost:wght@300;400;500;600&family=Noto+Sans+Malayalam:wght@400;500;600&family=Noto+Serif+Malayalam:wght@400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=languages-1">
-  <script src="app.js?v=languages-1" defer></script>
+  <link rel="stylesheet" href="styles.css?v=language-entry-1">
+  <script src="app.js?v=language-entry-1" defer></script>
 </head>
 <body>
   <svg class="svg-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><defs>
@@ -37,7 +37,7 @@
 
   <section class="invitation-gate" id="invitation-gate" aria-label="Open your invitation" aria-labelledby="gate-title">
     <div class="gate-art" aria-hidden="true"></div>
-    <div class="gate-top"><span class="eyebrow">BIAGIO & STEENA</span><div class="language-switch" aria-label="Language"><button type="button" data-lang="en" lang="en" aria-label="English" aria-pressed="true">EN</button><span aria-hidden="true">/</span><button type="button" data-lang="it" lang="it" aria-label="Italiano" aria-pressed="false">IT</button><span aria-hidden="true">/</span><button type="button" data-lang="ml" lang="ml" aria-label="മലയാളം" aria-pressed="false">മലയാളം</button></div></div>
+    <div class="gate-top"><span class="eyebrow">BIAGIO & STEENA</span></div>
     <div class="gate-content">
       <p class="eyebrow" data-i18n="gateEyebrow">ONE PROMISE. A NEW BEGINNING.</p>
       <h1 id="gate-title" data-i18n="gateTitle">A little invitation for you.</h1>
@@ -48,7 +48,14 @@
         <span class="wax-seal"><span>B<span class="seal-amp">&</span>S</span></span>
         <span class="envelope-address" data-i18n="envelopeAddress">For you, with love</span>
       </button>
-      <p class="open-hint"><span class="hint-line"></span><span data-i18n="openHint">TOUCH THE SEAL TO OPEN</span><span class="hint-line"></span></p>
+      <div class="gate-entry" role="group" aria-labelledby="language-entry-hint">
+        <p class="open-hint" id="language-entry-hint"><span class="hint-line"></span><span data-i18n="openHint">CHOOSE A LANGUAGE TO OPEN</span><span class="hint-line"></span></p>
+        <div class="gate-language-buttons">
+          <button type="button" class="gate-language-button" data-open-lang="en" aria-label="Open in English"><span lang="it">Inglese</span><small lang="en">English</small></button>
+          <button type="button" class="gate-language-button" data-open-lang="it" lang="it" aria-label="Apri in italiano"><span>Italiano</span><small>Apri l’invito</small></button>
+          <button type="button" class="gate-language-button" data-open-lang="ml" aria-label="മലയാളത്തിൽ തുറക്കുക"><span lang="en">Malayalam</span><small lang="ml">മലയാളം</small></button>
+        </div>
+      </div>
       <button type="button" class="skip-intro" id="skip-intro" data-i18n="skipIntro">Enter without animation</button>
     </div>
     <p class="gate-bottom">21 · 25 · 26 <span data-i18n="june2027">JUNE 2027</span> <span class="dot">•</span> <span data-i18n="keralaIndia">KERALA, INDIA</span></p>
