@@ -136,8 +136,7 @@ html[lang=ml] .music-toggle{font-size:10px;letter-spacing:0}
 .gate-language-buttons{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
 .gate-language-button{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;min-height:62px;padding:10px 12px;border:1px solid #e6bf85a8;border-radius:5px;background:#57142cb3;color:#ffe4bb;box-shadow:0 3px 12px #390e241a;font-family:'Jost',Arial,sans-serif;transition:background .2s,transform .2s,border-color .2s}
 .gate-language-button>span{font-size:14px;letter-spacing:.5px}
-.gate-language-button small{font-size:9px;line-height:1.5;letter-spacing:.4px;color:#e6bd9e}
-.gate-language-button small[lang=ml]{font-family:'Noto Sans Malayalam','Nirmala UI',sans-serif;letter-spacing:0}
+.gate-language-button>span[lang=ml]{font-family:'Noto Sans Malayalam','Nirmala UI',sans-serif;letter-spacing:0}
 .gate-language-button:hover{background:#8e3650;border-color:#f3d29d;transform:translateY(-2px)}
 .gate-language-button:focus-visible{outline-color:#ffe4bb;outline-offset:4px}
 .envelope-address{bottom:29%}
