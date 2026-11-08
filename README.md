@@ -2,6 +2,8 @@
 
 Invito di matrimonio statico, pronto per GitHub Pages. Italiano e inglese, busta animata, paesaggio del Kerala, conto alla rovescia, programma, mappe e calendario scaricabile. Nessuna installazione di dipendenze necessaria.
 
+Palette burgundy, rosa e oro, con fiori tropicali e bordi ispirati ai tessuti kasavu del Kerala. La busta occupa tutto lo schermo: cliccando il sigillo, i lembi si aprono e rivelano il sito sottostante. Anche le sezioni dell’invito si sviluppano a tutta larghezza e almeno a tutta altezza dello schermo, con scorrimento naturale per i contenuti più lunghi.
+
 Sito: https://biagiov.github.io/biagio-steena-wedding/
 
 Repository: https://github.com/BiagioV/biagio-steena-wedding
@@ -36,6 +38,6 @@ I testi iniziali sono in `index.html`; le traduzioni e la logica sono in `app.js
 
 I caratteri Cormorant Garamond e Jost vengono caricati da Google Fonts, con caratteri di sistema come fallback. Nessuna analitica e nessun servizio per raccogliere dati degli ospiti. La scelta della lingua viene salvata solo nel browser.
 
-Il paesaggio in `assets/kerala-watercolor.png` è un’illustrazione d’atmosfera generata con ImageGen, non una fotografia della chiesa o del luogo degli eventi. Il prompt è documentato in `assets/art-direction.txt`.
+I paesaggi in `assets/kerala-burgundy.png` (desktop) e `assets/kerala-burgundy-mobile.png` (telefono) sono illustrazioni d’atmosfera generate con ImageGen, non fotografie della chiesa o del luogo degli eventi. I prompt sono documentati in `assets/art-direction-burgundy.txt`; l’illustrazione originale `assets/kerala-watercolor.png` è conservata con il suo prompt.
 
 Nome della chiesa verificato nella directory dell’Arcieparchia di Kottayam: https://kottayamad.org/uzhavoor-forane/
