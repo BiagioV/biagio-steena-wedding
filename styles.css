@@ -102,4 +102,16 @@ footer{background:#52172b;color:#fce8d9;--gold:#e7bc7b;border-top:3px solid #c59
 @media(max-width:700px){.invitation-gate:after{inset:10px}.gate-top{top:20px;left:7%;right:7%}.gate-bottom{bottom:24px}.gate-content:before{top:13%;width:120px}.gate-content>.eyebrow{top:20%;font-size:8px}.gate-content h1{top:25%;font-size:42px;line-height:1.2}.wax-seal{width:100px;height:100px;left:calc(50% - 50px);top:calc(53% - 50px)}.wax-seal>span{width:78px;height:78px;font-size:37px}.seal-amp{font-size:24px}.envelope-address{font-size:23px;bottom:24%}.open-hint{font-size:7px;letter-spacing:1.7px;bottom:15%}.skip-intro{bottom:9%}.hero{height:100svh;min-height:780px;max-height:none}.hero-content{padding-top:110px}.location-copy{align-self:auto}.location-section{min-height:100svh}.promise,.celebrations,.guest-notes,.closing{min-height:100svh}}
 @media(max-height:650px) and (min-width:701px){.gate-content:before{top:10%}.gate-content>.eyebrow{top:17%}.gate-content h1{top:23%;font-size:42px}.wax-seal{width:90px;height:90px;left:calc(50% - 45px);top:calc(54% - 45px)}.wax-seal>span{width:70px;height:70px;font-size:34px}.envelope-address{font-size:23px}.gate-bottom{bottom:15px}.skip-intro{bottom:6%}}
 @media(max-width:700px){.hero-art{background-image:url('assets/kerala-burgundy-mobile.png');background-size:100% 100%;background-position:center}.hero-art:after{background:linear-gradient(180deg,#fff4e81a,#fff1e61a 56%,#fff2e800)}}
+.visually-hidden{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.music-toggle{position:fixed;right:22px;bottom:max(22px,env(safe-area-inset-bottom));z-index:60;display:flex;align-items:center;justify-content:center;gap:10px;min-height:46px;padding:10px 16px;border:1px solid #d5ac72;border-radius:28px;background:#621b32;color:#ffebcf;box-shadow:0 4px 18px #3b0e2833;font-size:11px;letter-spacing:.6px;transition:background .2s,transform .2s}
+.music-toggle[hidden]{display:none}.music-toggle:hover{background:#852942;transform:translateY(-2px)}
+.music-toggle svg{width:16px;height:16px}.music-play{fill:currentColor;stroke:none}.music-pause{display:none;stroke-width:2}
+.music-toggle[aria-pressed=true] .music-play{display:none}.music-toggle[aria-pressed=true] .music-pause{display:block}
+.music-bars{display:flex;align-items:center;gap:3px;width:19px;height:19px}
+.music-bars i{display:block;width:2px;height:5px;border-radius:2px;background:#edc48a;transform-origin:center}
+.music-bars i:nth-child(2){height:15px;animation-delay:-.7s}.music-bars i:nth-child(3){height:10px;animation-delay:-.35s}.music-bars i:nth-child(4){height:17px;animation-delay:-1s}
+.music-toggle[aria-pressed=true] .music-bars i{animation-name:music-wave;animation-duration:1.2s;animation-timing-function:ease-in-out;animation-iteration-count:infinite}
+@keyframes music-wave{0%,100%{transform:scaleY(.4)}50%{transform:scaleY(1)}}
+footer{padding-bottom:85px}
+@media(max-width:700px){.music-toggle{right:13px;bottom:max(13px,env(safe-area-inset-bottom));min-height:44px;padding:10px 13px;gap:8px;font-size:10px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}.js .reveal{opacity:1;transform:none}.envelope:hover{transform:none}}

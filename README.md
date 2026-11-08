@@ -4,6 +4,8 @@ Invito di matrimonio statico, pronto per GitHub Pages. Italiano e inglese, busta
 
 Palette burgundy, rosa e oro, con fiori tropicali e bordi ispirati ai tessuti kasavu del Kerala. La busta occupa tutto lo schermo: cliccando il sigillo, i lembi si aprono e rivelano il sito sottostante. Anche le sezioni dell’invito si sviluppano a tutta larghezza e almeno a tutta altezza dello schermo, con scorrimento naturale per i contenuti più lunghi.
 
+La musica fornita dagli sposi è in `assets/song-wedding.mp3`. Parte al clic sul sigillo (o su “Entra senza animazione”), viene ripetuta in loop e ha un pulsante fisso per pausa/ripresa. Il volume iniziale è impostato al 32% sui browser che consentono di regolarlo; sugli altri dispositivi si usa il volume di sistema. Il file non viene precaricato prima dell’apertura dell’invito. Riaprire la busta non riavvia la canzone e rispetta un’eventuale pausa.
+
 Sito: https://biagiov.github.io/biagio-steena-wedding/
 
 Repository: https://github.com/BiagioV/biagio-steena-wedding

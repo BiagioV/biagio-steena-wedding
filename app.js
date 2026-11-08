@@ -11,9 +11,53 @@
   const gate = document.getElementById('invitation-gate');
   const site = document.getElementById('wedding-site');
   const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+  const music = document.getElementById('wedding-music');
+  const musicToggle = document.getElementById('music-toggle');
+  const musicLabel = document.getElementById('music-label');
+  const musicStatus = document.getElementById('music-status');
   let language = 'it';
   let opening = false;
   let toastTimeout;
+  let musicAttempted = false;
+  music.volume = 0.32;
+  musicToggle.hidden = false;
+
+  function updateMusicControl() {
+    const playing = !music.paused && !music.ended && !music.error;
+    musicToggle.setAttribute('aria-pressed',String(playing));
+    musicToggle.setAttribute('aria-label',language === 'it'
+      ? playing ? 'Metti in pausa la musica' : 'Attiva la musica'
+      : playing ? 'Pause the music' : 'Play the music');
+    musicLabel.textContent = language === 'it' ? 'Musica' : 'Music';
+    musicStatus.textContent = language === 'it'
+      ? playing ? 'Musica in riproduzione' : 'Musica in pausa'
+      : playing ? 'Music playing' : 'Music paused';
+  }
+
+  function playMusic() {
+    // Called directly from a click/keyboard gesture, before the envelope timers.
+    // A rejected playback request never prevents the invitation from opening.
+    music.play().catch(() => {
+      updateMusicControl();
+      musicStatus.textContent = language === 'it'
+        ? 'Tocca il pulsante Musica per riprovare la riproduzione.'
+        : 'Tap the Music button to try playing again.';
+    });
+  }
+  music.addEventListener('playing',updateMusicControl);
+  music.addEventListener('pause',updateMusicControl);
+  music.addEventListener('error',() => {
+    updateMusicControl();
+    musicStatus.textContent = language === 'it'
+      ? 'La musica non è disponibile in questo momento.'
+      : 'Music is currently unavailable.';
+  });
+  musicToggle.addEventListener('click',() => {
+    if (music.paused) {
+      if (music.error) music.load();
+      playMusic();
+    } else music.pause();
+  });
   document.documentElement.classList.add('js');
   document.body.classList.add('gated');
   site.inert = true;
@@ -21,6 +65,10 @@
   function openInvitation(skip = false) {
     if (opening) return;
     opening = true;
+    if (!musicAttempted) {
+      musicAttempted = true;
+      playMusic();
+    }
     if (!skip && !reducedMotion.matches) gate.classList.add('opening');
     const wait = skip || reducedMotion.matches ? 0 : 1350;
     window.setTimeout(() => {
@@ -72,6 +120,7 @@
     document.querySelector('.location-art').setAttribute('aria-label',next === 'it' ? 'Illustrazione ad acquerello del paesaggio del Kerala' : 'Watercolor illustration of the Kerala landscape');
     try { localStorage.setItem('biagio-steena-language',next); } catch { /* Local storage can be unavailable in private mode. */ }
     updateCountdown();
+    updateMusicControl();
   }
   document.querySelectorAll('[data-lang]').forEach(button => button.addEventListener('click',() => setLanguage(button.dataset.lang)));
 
