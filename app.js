@@ -19,6 +19,7 @@
       "scroll": "SCORRI, LA STORIA COMINCIA",
       "scrollLabel": "Scopri la nostra promessa",
       "promiseEyebrow": "DUE CUORI, UNA PROMESSA",
+      "portraitAlt": "Illustrazione di una coppia in abiti tradizionali del Kerala",
       "promiseTitle": "Un sì. Una vita.<br>Con voi.",
       "promiseBody": "Tra il verde del Kerala e l’abbraccio delle nostre famiglie, iniziamo il capitolo più bello della nostra vita. Vi aspettiamo per condividere la gioia di questi giorni, la nostra fede e le tradizioni knanaya che ci accompagnano.",
       "countdownCaption": "CONTIAMO I GIORNI AL NOSTRO SÌ",
@@ -114,6 +115,7 @@
       "scroll": "SCROLL, OUR STORY BEGINS",
       "scrollLabel": "Discover our promise",
       "promiseEyebrow": "TWO HEARTS, ONE PROMISE",
+      "portraitAlt": "Illustration of a couple in traditional Kerala clothing",
       "promiseTitle": "One love. One lifetime.<br>With you.",
       "promiseBody": "Surrounded by the green of Kerala and the love of our families, we begin the most beautiful chapter of our lives. Join us to share these joyful days, our faith, and the Knanaya traditions we hold close.",
       "countdownCaption": "COUNTING THE DAYS UNTIL WE SAY “I DO”",
@@ -209,6 +211,7 @@
       "scroll": "താഴേക്ക് നീങ്ങൂ, ഞങ്ങളുടെ കഥ തുടങ്ങുന്നു",
       "scrollLabel": "ഞങ്ങളുടെ വാഗ്ദാനം അറിയാം",
       "promiseEyebrow": "രണ്ട് ഹൃദയങ്ങൾ, ഒരു വാഗ്ദാനം",
+      "portraitAlt": "കേരളത്തിന്റെ പരമ്പരാഗത വസ്ത്രങ്ങൾ ധരിച്ച ദമ്പതികളുടെ ചിത്രം",
       "promiseTitle": "ഒരു സ്നേഹം. ഒരു ജീവിതം.<br>നിങ്ങളോടൊപ്പം.",
       "promiseBody": "കേരളത്തിന്റെ പച്ചപ്പിലും കുടുംബങ്ങളുടെ സ്നേഹത്തിലും ഞങ്ങളുടെ ജീവിതത്തിലെ ഏറ്റവും മനോഹരമായ അധ്യായം തുടങ്ങുന്നു. ഈ ദിവസങ്ങളുടെ സന്തോഷവും ഞങ്ങളുടെ വിശ്വാസവും ക്നാനായ പാരമ്പര്യങ്ങളും പങ്കുവെക്കാൻ നിങ്ങളെ സ്നേഹപൂർവ്വം ക്ഷണിക്കുന്നു.",
       "countdownCaption": "ഞങ്ങളുടെ വിവാഹദിനത്തിനായി കാത്തിരിക്കുന്നു",
@@ -386,6 +389,7 @@
       element.innerHTML = t[element.dataset.i18n];
     });
     document.querySelectorAll('[data-i18n-label]').forEach(element => element.setAttribute('aria-label',t[element.dataset.i18nLabel]));
+    document.querySelectorAll('[data-i18n-alt]').forEach(element => element.setAttribute('alt',t[element.dataset.i18nAlt]));
     document.querySelectorAll('[data-lang]').forEach(button => button.setAttribute('aria-pressed',String(button.dataset.lang === next)));
     document.querySelector('.closing .signature').firstChild.textContent = t.withLove;
     document.querySelector('.site-header nav').setAttribute('aria-label',t.navigationLabel);

@@ -44,4 +44,6 @@ I caratteri Cormorant Garamond, Jost, Noto Sans Malayalam e Noto Serif Malayalam
 
 I paesaggi in `assets/kerala-burgundy.png` (desktop) e `assets/kerala-burgundy-mobile.png` (telefono) sono illustrazioni d’atmosfera generate con ImageGen, non fotografie della chiesa o del luogo degli eventi. I prompt sono documentati in `assets/art-direction-burgundy.txt`; l’illustrazione originale `assets/kerala-watercolor.png` è conservata con il suo prompt.
 
+L’illustrazione della coppia in `assets/couple-illustration.jpg` è stata fornita dagli sposi e viene mostrata integralmente nella sezione della promessa, in una cornice dorata. Il file è una copia invariata dell’immagine originale.
+
 Nome della chiesa verificato nella directory dell’Arcieparchia di Kottayam: https://kottayamad.org/uzhavoor-forane/
