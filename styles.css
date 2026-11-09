@@ -114,6 +114,7 @@ footer{background:#52172b;color:#fce8d9;--gold:#e7bc7b;border-top:3px solid #c59
 @keyframes music-wave{0%,100%{transform:scaleY(.4)}50%{transform:scaleY(1)}}
 footer{padding-bottom:85px}
 .link-icon{width:17px;height:17px;flex-shrink:0;stroke-width:1.4}
+.event-note.event-time{font-size:13px;font-weight:500;color:#f4d29b;line-height:1.8}
 .language-switch button[lang=ml]{font-family:'Noto Sans Malayalam','Nirmala UI',sans-serif;font-size:11px;letter-spacing:0}
 html[lang=ml]{--sans:'Noto Sans Malayalam','Nirmala UI',sans-serif;--serif:'Noto Serif Malayalam','Nirmala UI',serif}
 html[lang=ml] .eyebrow,html[lang=ml] .event-day,html[lang=ml] .hero-date,html[lang=ml] .hero-location,html[lang=ml] .open-hint,html[lang=ml] .gate-bottom,html[lang=ml] .countdown small,html[lang=ml] .scroll-cue,html[lang=ml] footer>p{letter-spacing:0;line-height:1.9}

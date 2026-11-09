@@ -22,7 +22,7 @@
       "promiseTitle": "Un sì. Una vita.<br>Con voi.",
       "promiseBody": "Tra il verde del Kerala e l’abbraccio delle nostre famiglie, iniziamo il capitolo più bello della nostra vita. Vi aspettiamo per condividere la gioia di questi giorni, la nostra fede e le tradizioni knanaya che ci accompagnano.",
       "countdownCaption": "CONTIAMO I GIORNI AL NOSTRO SÌ",
-      "countdownNote": "Fino al 26 giugno, nel fuso orario del Kerala.",
+      "countdownNote": "Fino al 26 giugno alle 10:30, ora del Kerala.",
       "days": "GIORNI",
       "hours": "ORE",
       "minutes": "MINUTI",
@@ -42,6 +42,8 @@
       "event21Details": "Orario da confermare",
       "event25Location": "Casa di Biagio · Areekara",
       "timePending": "Orario da confermare",
+      "event25Time": "18:30 · ora del Kerala",
+      "event26Time": "10:30 · ora del Kerala",
       "viewArea": "Vedi la zona",
       "churchMap": "Vedi la chiesa",
       "saveDates": "Salva le tre date",
@@ -53,7 +55,7 @@
       "guestEyebrow": "PER ESSERCI, CON IL CUORE LEGGERO",
       "guestTitle": "Qualche dettaglio per voi.",
       "faq1Title": "A che ora iniziano gli eventi?",
-      "faq1Body": "Le date sono confermate: 21, 25 e 26 giugno 2027. Aggiorneremo questo invito con gli orari e i dettagli dei festeggiamenti appena saranno definiti.",
+      "faq1Body": "Il Chandam Charthu del 25 giugno 2027 inizia alle 18:30. Il matrimonio del 26 giugno inizia alle 10:30. Gli orari sono quelli locali del Kerala (IST, UTC+05:30). L’orario dell’Ottukalyanam del 21 giugno sarà comunicato più avanti.",
       "faq2Title": "Dove ci ritroviamo?",
       "faq2Body": "Il 21 giugno saremo alla St. Sebastian’s Knanaya Catholic Church di Kandakassery, a Payavoor. Il 25 ci ritroveremo a casa di Biagio, ad Areekara. Il 26 celebreremo il matrimonio a St. Rocky’s Church, ad Areekara. Trovi i punti esatti nelle mappe del programma.",
       "faq3Title": "Come posso confermare la mia presenza?",
@@ -66,7 +68,8 @@
       "downloadNotice": "Calendario scaricato. Apri il file per aggiungere le tre date.",
       "today": "OGGI CI SPOSIAMO!",
       "married": "IL NOSTRO PER SEMPRE È COMINCIATO",
-      "calendarDescription": "Biagio e Steena. Orario da confermare. Evento salvato per l’intera giornata: aggiorneremo l’invito con gli orari.",
+      "calendarDescription": "Biagio e Steena. Gli orari indicati sono quelli locali del Kerala (IST, UTC+05:30).",
+      "calendarPending": "Orario da confermare. Promemoria salvato per l’intera giornata.",
       "event21Location": "St. Sebastian’s Knanaya Catholic Church · Kandakassery, Payavoor",
       "homeMap": "Vedi la casa",
       "event21Name": "Ottukalyanam",
@@ -83,7 +86,7 @@
       "homeLabel": "Biagio e Steena, inizio",
       "backToTop": "Torna all’inizio",
       "pageTitle": "Biagio & Steena — Ci sposiamo · 26.06.2027",
-      "countdownLabel": "Conto alla rovescia al 26 giugno 2027, ora del Kerala",
+      "countdownLabel": "Conto alla rovescia al 26 giugno 2027 alle 10:30, ora del Kerala",
       "landscapeLabel": "Illustrazione ad acquerello del paesaggio del Kerala",
       "musicLabel": "Musica",
       "musicPause": "Metti in pausa la musica",
@@ -114,7 +117,7 @@
       "promiseTitle": "One love. One lifetime.<br>With you.",
       "promiseBody": "Surrounded by the green of Kerala and the love of our families, we begin the most beautiful chapter of our lives. Join us to share these joyful days, our faith, and the Knanaya traditions we hold close.",
       "countdownCaption": "COUNTING THE DAYS UNTIL WE SAY “I DO”",
-      "countdownNote": "Until June 26, in Kerala’s time zone.",
+      "countdownNote": "Until June 26 at 10:30 AM, Kerala time.",
       "days": "DAYS",
       "hours": "HOURS",
       "minutes": "MINUTES",
@@ -134,6 +137,8 @@
       "event21Details": "Time to be confirmed",
       "event25Location": "Biagio’s home · Areekara",
       "timePending": "Time to be confirmed",
+      "event25Time": "6:30 PM · Kerala time",
+      "event26Time": "10:30 AM · Kerala time",
       "viewArea": "Explore the area",
       "churchMap": "Find the church",
       "saveDates": "Save all three dates",
@@ -145,7 +150,7 @@
       "guestEyebrow": "A FEW THINGS BEFORE YOU JOIN US",
       "guestTitle": "A little helpful detail.",
       "faq1Title": "What time do the events begin?",
-      "faq1Body": "The dates are confirmed: June 21, 25 and 26, 2027. We will update this invitation with times and celebration details as soon as they are finalised.",
+      "faq1Body": "Chandam Charthu begins at 6:30 PM on June 25, 2027. The wedding begins at 10:30 AM on June 26. All times are local to Kerala (IST, UTC+05:30). The time for Ottukalyanam on June 21 will be announced later.",
       "faq2Title": "Where are we celebrating?",
       "faq2Body": "On June 21, we will be at St. Sebastian’s Knanaya Catholic Church in Kandakassery, Payavoor. On June 25, we will gather at Biagio’s home in Areekara. On June 26, our wedding will take place at St. Rocky’s Church in Areekara. You can find the exact locations using the maps in the programme.",
       "faq3Title": "How can I confirm I’m coming?",
@@ -158,7 +163,8 @@
       "downloadNotice": "Calendar downloaded. Open the file to add all three dates.",
       "today": "TODAY WE SAY “I DO”!",
       "married": "OUR FOREVER HAS BEGUN",
-      "calendarDescription": "Biagio and Steena. Time to be confirmed. Saved as an all-day event; we will update the invitation with the times.",
+      "calendarDescription": "Biagio and Steena. The listed times are local to Kerala (IST, UTC+05:30).",
+      "calendarPending": "Time to be confirmed. Saved as an all-day reminder.",
       "event21Location": "St. Sebastian’s Knanaya Catholic Church · Kandakassery, Payavoor",
       "homeMap": "Find the house",
       "event21Name": "Ottukalyanam",
@@ -175,7 +181,7 @@
       "homeLabel": "Biagio and Steena, home",
       "backToTop": "Back to the top",
       "pageTitle": "Biagio & Steena — We’re getting married · 26.06.2027",
-      "countdownLabel": "Countdown to June 26, 2027, in Kerala time",
+      "countdownLabel": "Countdown to June 26, 2027, at 10:30 AM in Kerala time",
       "landscapeLabel": "Watercolor illustration of the Kerala landscape",
       "musicLabel": "Music",
       "musicPause": "Pause the music",
@@ -206,7 +212,7 @@
       "promiseTitle": "ഒരു സ്നേഹം. ഒരു ജീവിതം.<br>നിങ്ങളോടൊപ്പം.",
       "promiseBody": "കേരളത്തിന്റെ പച്ചപ്പിലും കുടുംബങ്ങളുടെ സ്നേഹത്തിലും ഞങ്ങളുടെ ജീവിതത്തിലെ ഏറ്റവും മനോഹരമായ അധ്യായം തുടങ്ങുന്നു. ഈ ദിവസങ്ങളുടെ സന്തോഷവും ഞങ്ങളുടെ വിശ്വാസവും ക്നാനായ പാരമ്പര്യങ്ങളും പങ്കുവെക്കാൻ നിങ്ങളെ സ്നേഹപൂർവ്വം ക്ഷണിക്കുന്നു.",
       "countdownCaption": "ഞങ്ങളുടെ വിവാഹദിനത്തിനായി കാത്തിരിക്കുന്നു",
-      "countdownNote": "കേരളത്തിലെ സമയമനുസരിച്ച് ജൂൺ 26 വരെയുള്ള സമയം.",
+      "countdownNote": "കേരള സമയമനുസരിച്ച് ജൂൺ 26 രാവിലെ 10:30 വരെയുള്ള സമയം.",
       "days": "ദിവസങ്ങൾ",
       "hours": "മണിക്കൂർ",
       "minutes": "മിനിറ്റ്",
@@ -227,6 +233,8 @@
       "event21Location": "സെന്റ് സെബാസ്റ്റ്യൻസ് ക്നാനായ കത്തോലിക്കാ പള്ളി · കണ്ടകശ്ശേരി, പയ്യാവൂർ",
       "event25Location": "Biagioയുടെ വീട് · അരീക്കര",
       "timePending": "സമയം പിന്നീട് അറിയിക്കും",
+      "event25Time": "വൈകിട്ട് 6:30 · കേരള സമയം",
+      "event26Time": "രാവിലെ 10:30 · കേരള സമയം",
       "viewArea": "സ്ഥലം കാണുക",
       "homeMap": "വീടിന്റെ സ്ഥാനം കാണുക",
       "churchMap": "പള്ളിയുടെ സ്ഥാനം കാണുക",
@@ -239,7 +247,7 @@
       "guestEyebrow": "ഞങ്ങളോടൊപ്പം ചേരാൻ",
       "guestTitle": "നിങ്ങൾക്കായി ചില വിവരങ്ങൾ.",
       "faq1Title": "ചടങ്ങുകൾ എപ്പോഴാണ് തുടങ്ങുന്നത്?",
-      "faq1Body": "2027 ജൂൺ 21, 25, 26 എന്നീ തീയതികൾ നിശ്ചയിച്ചിട്ടുണ്ട്. സമയങ്ങളും ആഘോഷങ്ങളുടെ മറ്റു വിവരങ്ങളും ഉറപ്പായാൽ ഈ ക്ഷണക്കത്തിൽ ചേർക്കും.",
+      "faq1Body": "2027 ജൂൺ 25-ന് വൈകിട്ട് 6:30-ന് ചന്തം ചാർത്ത് ആരംഭിക്കും. ജൂൺ 26-ന് രാവിലെ 10:30-നാണ് വിവാഹം. എല്ലാ സമയങ്ങളും കേരളത്തിലെ പ്രാദേശിക സമയമാണ് (IST, UTC+05:30). ജൂൺ 21-ലെ ഒത്തുകല്യാണത്തിന്റെ സമയം പിന്നീട് അറിയിക്കും.",
       "faq2Title": "ചടങ്ങുകൾ എവിടെയാണ്?",
       "faq2Body": "ജൂൺ 21-ന് പയ്യാവൂർ കണ്ടകശ്ശേരിയിലെ സെന്റ് സെബാസ്റ്റ്യൻസ് ക്നാനായ കത്തോലിക്കാ പള്ളിയിൽ ഒത്തുചേരും. ജൂൺ 25-ന് അരീക്കരയിലെ Biagioയുടെ വീട്ടിലാണ് ചടങ്ങ്. ജൂൺ 26-ന് അരീക്കരയിലെ സെന്റ് റോക്കീസ് പള്ളിയിൽ വിവാഹം നടക്കും. ഓരോ സ്ഥലത്തിന്റെയും മാപ്പ് പരിപാടികളുടെ വിവരങ്ങൾക്കൊപ്പം നൽകിയിട്ടുണ്ട്.",
       "faq3Title": "ഞാൻ വരുമെന്ന് എങ്ങനെ അറിയിക്കാം?",
@@ -252,7 +260,8 @@
       "downloadNotice": "കലണ്ടർ ഡൗൺലോഡ് ചെയ്തു. മൂന്ന് തീയതികളും ചേർക്കാൻ ഫയൽ തുറക്കുക.",
       "today": "ഇന്നാണ് ഞങ്ങളുടെ വിവാഹം!",
       "married": "ഞങ്ങളുടെ ഒരുമിച്ചുള്ള ജീവിതം തുടങ്ങി",
-      "calendarDescription": "Biagio & Steena. സമയം പിന്നീട് അറിയിക്കും. ദിവസം മുഴുവനുള്ള പരിപാടിയായി കലണ്ടറിൽ ചേർത്തിരിക്കുന്നു. സമയം ഉറപ്പായാൽ ക്ഷണക്കത്തിൽ ചേർക്കും.",
+      "calendarDescription": "Biagio & Steena. നൽകിയിരിക്കുന്ന സമയങ്ങൾ കേരളത്തിലെ പ്രാദേശിക സമയമാണ് (IST, UTC+05:30).",
+      "calendarPending": "സമയം പിന്നീട് അറിയിക്കും. ദിവസം മുഴുവനുള്ള ഓർമ്മപ്പെടുത്തലായി കലണ്ടറിൽ ചേർത്തിരിക്കുന്നു.",
       "event21Name": "ഒത്തുകല്യാണം",
       "event25Name": "ചന്തം ചാർത്ത്",
       "event26Name": "കല്യാണം",
@@ -267,7 +276,7 @@
       "homeLabel": "Biagio & Steena, തുടക്കം",
       "backToTop": "തുടക്കത്തിലേക്ക്",
       "pageTitle": "Biagio & Steena — ഞങ്ങളുടെ വിവാഹം · 26.06.2027",
-      "countdownLabel": "കേരളത്തിലെ സമയമനുസരിച്ച് 2027 ജൂൺ 26 വരെയുള്ള സമയം",
+      "countdownLabel": "കേരള സമയമനുസരിച്ച് 2027 ജൂൺ 26 രാവിലെ 10:30 വരെയുള്ള സമയം",
       "landscapeLabel": "കേരളത്തിന്റെ പ്രകൃതി ദൃശ്യത്തിന്റെ ജലച്ചായ ചിത്രം",
       "musicLabel": "സംഗീതം",
       "musicPause": "സംഗീതം താൽക്കാലികമായി നിർത്തുക",
@@ -392,13 +401,14 @@
 
   document.querySelectorAll('[data-lang]').forEach(button => button.addEventListener('click',() => setLanguage(button.dataset.lang)));
 
-  const weddingDate = new Date('2027-06-26T00:00:00+05:30').getTime();
+  const weddingDate = new Date('2027-06-26T10:30:00+05:30').getTime();
+  const weddingDayEnd = new Date('2027-06-27T00:00:00+05:30').getTime();
   function updateCountdown() {
     const now = Date.now();
     const remaining = Math.max(0,Math.floor((weddingDate-now)/1000));
     const values = {days:Math.floor(remaining/86400),hours:Math.floor(remaining%86400/3600),minutes:Math.floor(remaining%3600/60),seconds:remaining%60};
     Object.entries(values).forEach(([id,value]) => {document.getElementById(id).textContent = String(value).padStart(2,'0');});
-    document.getElementById('countdown-caption').textContent = translations[language][now < weddingDate ? 'countdownCaption' : now < weddingDate+86400000 ? 'today' : 'married'];
+    document.getElementById('countdown-caption').textContent = translations[language][now < weddingDate ? 'countdownCaption' : now < weddingDayEnd ? 'today' : 'married'];
   }
   updateCountdown();
   window.setInterval(updateCountdown,1000);
@@ -426,12 +436,24 @@
   document.getElementById('save-dates').addEventListener('click', () => {
     const events = [
       {day:'21',end:'22',name:translations[language].event21Name,location:translations[language].event21Location,map:'https://maps.app.goo.gl/EQBtCZyqDwaWbgtK8'},
-      {day:'25',end:'26',name:translations[language].event25Name,location:translations[language].event25Location,map:'https://maps.app.goo.gl/1ND9wtggy1r7PzQy7'},
-      {day:'26',end:'27',name:translations[language].event26Name,location:'St. Rocky’s (St. Roch’s) Knanaya Catholic Church, Areekara, Kerala, India'}
+      {day:'25',start:'2027-06-25T18:30:00+05:30',timeLabel:translations[language].event25Time,name:translations[language].event25Name,location:translations[language].event25Location,map:'https://maps.app.goo.gl/1ND9wtggy1r7PzQy7'},
+      {day:'26',start:'2027-06-26T10:30:00+05:30',timeLabel:translations[language].event26Time,name:translations[language].event26Name,location:'St. Rocky’s (St. Roch’s) Knanaya Catholic Church, Areekara, Kerala, India'}
     ];
     const stamp = new Date().toISOString().replace(/[-:]/g,'').replace(/\.\d{3}/,'');
     const lines = ['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//Biagio and Steena//Wedding 2027//EN','CALSCALE:GREGORIAN','METHOD:PUBLISH'];
-    events.forEach(event => lines.push('BEGIN:VEVENT',`UID:202706${event.day}-biagio-steena@wedding-invitation`,`DTSTAMP:${stamp}`,`DTSTART;VALUE=DATE:202706${event.day}`,`DTEND;VALUE=DATE:202706${event.end}`,`SUMMARY:${icsEscape('Biagio & Steena · '+event.name)}`,`LOCATION:${icsEscape(event.location)}`,`DESCRIPTION:${icsEscape(translations[language].calendarDescription+(event.map ? '\n'+event.map : ''))}`,'TRANSP:TRANSPARENT','END:VEVENT'));
+    events.forEach(event => {
+      lines.push('BEGIN:VEVENT',`UID:202706${event.day}-biagio-steena@wedding-invitation`,`DTSTAMP:${stamp}`);
+      if (event.start) {
+        // UTC preserves the Kerala start time in any guest's calendar time zone.
+        // No end time or duration is supplied until the couple confirms one.
+        const start = new Date(event.start).toISOString().replace(/[-:]/g,'').replace(/\.\d{3}/,'');
+        lines.push(`DTSTART:${start}`);
+      } else {
+        lines.push(`DTSTART;VALUE=DATE:202706${event.day}`,`DTEND;VALUE=DATE:202706${event.end}`);
+      }
+      const description = [translations[language].calendarDescription,event.timeLabel || translations[language].calendarPending,event.map].filter(Boolean).join('\n');
+      lines.push(`SUMMARY:${icsEscape('Biagio & Steena · '+event.name)}`,`LOCATION:${icsEscape(event.location)}`,`DESCRIPTION:${icsEscape(description)}`,'TRANSP:TRANSPARENT','END:VEVENT');
+    });
     lines.push('END:VCALENDAR');
     const blob = new Blob([lines.map(foldLine).join('\r\n')+'\r\n'],{type:'text/calendar;charset=utf-8'});
     const url = URL.createObjectURL(blob);

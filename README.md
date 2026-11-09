@@ -29,12 +29,12 @@ Non occorrono password o token nel codice. Documentazione: https://docs.github.c
 ## Contenuti da completare
 
 - 21 giugno 2027: Ottukalyanam alla St. Sebastian’s Knanaya Catholic Church, Kandakassery, Payavoor. Orario da confermare. Mappa fornita dagli sposi: https://maps.app.goo.gl/EQBtCZyqDwaWbgtK8
-- 25 giugno 2027: Chandam Charthu a casa di Biagio, Areekara, orario da confermare.
-- 26 giugno 2027: Kalyanam a St. Rocky’s Church (St. Roch’s Knanaya Catholic Church), Areekara, orario da confermare.
+- 25 giugno 2027: Chandam Charthu a casa di Biagio, Areekara, alle 18:30 (ora del Kerala).
+- 26 giugno 2027: Kalyanam a St. Rocky’s Church (St. Roch’s Knanaya Catholic Church), Areekara, alle 10:30 (ora del Kerala).
 - La mappa del 25 apre il punto di casa fornito dagli sposi: https://maps.app.goo.gl/1ND9wtggy1r7PzQy7
 - Non c’è un modulo RSVP collegato: la sezione informazioni invita a contattare direttamente gli sposi con i contatti già noti agli invitati.
 
-Il calendario salva tre eventi di giornata intera, senza inventare gli orari, con i collegamenti Maps forniti per il 21 e il 25. Il conto alla rovescia termina all’inizio del 26 giugno nel fuso `Asia/Kolkata` (UTC+05:30), non all’orario della cerimonia.
+Il calendario salva il 21 come promemoria di giornata intera con orario da confermare. Il 25 inizia alle 18:30 e il 26 alle 10:30 nel fuso `Asia/Kolkata` (UTC+05:30): il file ICS contiene questi istanti in UTC, così il calendario di ogni ospite può mostrarli nel proprio fuso. Non sono specificati orari di fine o durate. Sono inclusi i collegamenti Maps forniti per il 21 e il 25. Il conto alla rovescia termina all’inizio della cerimonia, il 26 giugno alle 10:30 in Kerala.
 
 ## Modifiche
 
