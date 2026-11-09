@@ -398,7 +398,6 @@
     document.querySelector('footer .monogram').setAttribute('aria-label',t.backToTop);
     document.title = t.pageTitle;
     document.querySelector('.countdown').setAttribute('aria-label',t.countdownLabel);
-    document.querySelector('.location-art').setAttribute('aria-label',t.landscapeLabel);
     updateCountdown();
     updateMusicControl();
   }
