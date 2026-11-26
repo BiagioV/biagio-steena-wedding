@@ -167,3 +167,8 @@ html[lang=ml] .family-name,html[lang=ml] .families-amp{font-family:'Cormorant Ga
 .hero .button{margin-top:36px}
 @media(max-width:700px){.hero .button{margin-top:26px}}
 #famiglie{scroll-margin-top:60px}
+/* Mylanchi note on the June 21 card */
+.event-extra{display:flex;align-items:flex-start;gap:9px;margin-top:14px;font-family:var(--serif);font-style:italic;font-size:17px;line-height:1.35;color:#f1cf99;max-width:270px}
+.event-extra svg{width:16px;height:20px;flex-shrink:0;margin-top:1px;stroke-width:1.4}
+.event:first-child .event-description{min-height:0}
+.events .event-details{margin-top:auto}.events .event-description{margin-bottom:25px}.events .event-extra{margin:8px 0 2px}.event>.text-link{margin-top:0}

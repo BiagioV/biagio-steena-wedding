@@ -28,7 +28,7 @@ Non occorrono password o token nel codice. Documentazione: https://docs.github.c
 
 ## Contenuti da completare
 
-- 21 giugno 2027: Ottukalyanam alla St. Sebastian’s Knanaya Catholic Church, Kandakassery, Payavoor. Orario da confermare. Mappa fornita dagli sposi: https://maps.app.goo.gl/EQBtCZyqDwaWbgtK8
+- 21 giugno 2027: Ottukalyanam e, la sera, il Mylanchi di Steena (sotto il titolo: “And Mylanchi”). Ottukalyanam alla St. Sebastian’s Knanaya Catholic Church, Kandakassery, Payavoor. Orario da confermare. Mappa fornita dagli sposi: https://maps.app.goo.gl/EQBtCZyqDwaWbgtK8
 - 25 giugno 2027: Chandam Charthu a casa di Biagio, Areekara, alle 18:30 (ora del Kerala).
 - 26 giugno 2027: Kalyanam a St. Rocky’s Church (St. Roch’s Knanaya Catholic Church), Areekara, alle 10:30 (ora del Kerala).
 - La mappa del 25 apre il punto di casa fornito dagli sposi: https://maps.app.goo.gl/1ND9wtggy1r7PzQy7

@@ -45,6 +45,8 @@
       "tradition": "La bellezza delle tradizioni",
       "wedding": "Il nostro matrimonio",
       "event21Description": "Il primo passo verso il nostro sì, insieme alle persone che amiamo.",
+      "event21Mylanchi": "E Mylanchi",
+      "mylanchiName": "Mylanchi",
       "event25Description": "Una giornata di famiglia e tradizione, nell’attesa del nostro matrimonio.",
       "event26Description": "Ci promettiamo di camminare fianco a fianco.",
       "event21Details": "Orario da confermare",
@@ -148,6 +150,8 @@
       "tradition": "The beauty of tradition",
       "wedding": "Our wedding day",
       "event21Description": "The first step towards our forever, with the people we love.",
+      "event21Mylanchi": "And Mylanchi",
+      "mylanchiName": "Mylanchi",
       "event25Description": "A day of family and tradition, as we look forward to our wedding.",
       "event26Description": "We promise to walk through life together.",
       "event21Details": "Time to be confirmed",
@@ -251,6 +255,8 @@
       "tradition": "പാരമ്പര്യങ്ങളുടെ മനോഹാരിത",
       "wedding": "ഞങ്ങളുടെ വിവാഹം",
       "event21Description": "പ്രിയപ്പെട്ടവരോടൊപ്പം, ഒരുമിച്ചുള്ള ജീവിതത്തിലേക്കുള്ള ആദ്യ ചുവട്.",
+      "event21Mylanchi": "മൈലാഞ്ചിയും",
+      "mylanchiName": "മൈലാഞ്ചി",
       "event25Description": "വിവാഹത്തിനായി കാത്തിരിക്കുമ്പോൾ, കുടുംബത്തിനും പാരമ്പര്യങ്ങൾക്കുമൊപ്പമുള്ള ഒരു ദിനം.",
       "event26Description": "ജീവിതത്തിലുടനീളം ഒരുമിച്ച് നടക്കുമെന്ന് ഞങ്ങൾ വാഗ്ദാനം ചെയ്യുന്നു.",
       "event21Details": "സമയം പിന്നീട് അറിയിക്കും",
@@ -459,7 +465,7 @@
   }
   document.getElementById('save-dates').addEventListener('click', () => {
     const events = [
-      {day:'21',end:'22',name:translations[language].event21Name,location:translations[language].event21Location,map:'https://maps.app.goo.gl/EQBtCZyqDwaWbgtK8'},
+      {day:'21',end:'22',name:translations[language].event21Name+' & '+translations[language].mylanchiName,location:translations[language].event21Location,map:'https://maps.app.goo.gl/EQBtCZyqDwaWbgtK8'},
       {day:'25',start:'2027-06-25T18:30:00+05:30',timeLabel:translations[language].event25Time,name:translations[language].event25Name,location:translations[language].event25Location,map:'https://maps.app.goo.gl/1ND9wtggy1r7PzQy7'},
       {day:'26',start:'2027-06-26T10:30:00+05:30',timeLabel:translations[language].event26Time,name:translations[language].event26Name,location:'St. Rocky’s (St. Roch’s) Knanaya Catholic Church, Areekara, Kerala, India'}
     ];
