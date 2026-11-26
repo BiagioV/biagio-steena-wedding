@@ -150,3 +150,20 @@ html[lang=ml] .music-toggle{font-size:10px;letter-spacing:0}
 .location-portrait img{display:block;width:100%;height:auto;max-width:460px;max-height:calc(100svh - 80px);object-fit:contain;box-shadow:0 16px 35px #290a1c33}
 @media(max-width:700px){.location-portrait{padding:32px 26px;min-height:0}.location-portrait img{max-width:384px;max-height:none}.location-portrait:after{inset:14px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}.js .reveal{opacity:1;transform:none}.envelope:hover{transform:none}}
+
+/* Families: traditional "son of / daughter of" block in the promise section */
+.families{max-width:820px;margin:0 auto 63px;border-bottom:1px solid var(--line);padding-bottom:45px}
+.families>.eyebrow{font-size:8px;letter-spacing:2px;color:var(--gold)}
+.families-grid{display:grid;grid-template-columns:1fr auto 1fr;align-items:start;gap:30px;margin-top:30px}
+.family-name{font-size:40px;line-height:1.1;font-style:italic}
+.family-parents{font-family:var(--serif);font-size:20px;margin-top:10px;color:#8b4559}
+.family-house{font-size:10px;letter-spacing:2px;text-transform:uppercase;font-weight:500;margin-top:14px;line-height:1.9}
+.family-house span{display:block;text-transform:none;letter-spacing:.3px;font-weight:300;font-size:12px;color:var(--muted);font-style:italic}
+.family-siblings{font-size:12px;font-weight:300;line-height:1.8;margin-top:12px;color:var(--muted)}
+.family-siblings span{font-size:11px}
+.families-amp{font-family:var(--serif);font-style:italic;font-size:46px;color:var(--gold);align-self:center}
+html[lang=ml] .family-name,html[lang=ml] .families-amp{font-family:'Cormorant Garamond',serif}
+@media(max-width:700px){.families{margin-bottom:45px;padding-bottom:35px}.families-grid{grid-template-columns:1fr;gap:14px;margin-top:22px}.family-name{font-size:36px}.family-parents{font-size:18px}.families-amp{font-size:38px;line-height:1}}
+.hero .button{margin-top:36px}
+@media(max-width:700px){.hero .button{margin-top:26px}}
+#famiglie{scroll-margin-top:60px}
