@@ -32,7 +32,7 @@ Non occorrono password o token nel codice. Documentazione: https://docs.github.c
 - 25 giugno 2027: Chandam Charthu a casa di Biagio, Areekara, alle 18:30 (ora del Kerala).
 - 26 giugno 2027: Kalyanam a St. Rocky’s Church (St. Roch’s Knanaya Catholic Church), Areekara, alle 10:30 (ora del Kerala).
 - La mappa del 25 apre il punto di casa fornito dagli sposi: https://maps.app.goo.gl/1ND9wtggy1r7PzQy7
-- Famiglie (in cima alla sezione della promessa): Biagio, figlio di Baby e Lissy, famiglia Veluthedathuparambil (Vakel), fratello di Manuel e Lorenzo. Steena, figlia di Raju e Lissy, famiglia Unnukallel, sorella di Stefin e Alan. In malayalam i nomi restano in caratteri latini, come nel resto del sito.
+- Famiglie (in cima alla sezione della promessa): Biagio, figlio di Baby e Lissy, famiglia Veluthedathuparambil (Vakkel), fratello di Manuel e Lorenzo. Steena, figlia di Raju e Lissy, famiglia Unnukallel, sorella di Stefin e Alan. In malayalam i nomi restano in caratteri latini, come nel resto del sito.
 - Non c’è un modulo RSVP collegato: la sezione informazioni invita a contattare direttamente gli sposi con i contatti già noti agli invitati, oppure i genitori (Baby e Lissy per Biagio, Raju e Lissy per Steena).
 
 Il calendario salva il 21 come promemoria di giornata intera con orario da confermare. Il 25 inizia alle 18:30 e il 26 alle 10:30 nel fuso `Asia/Kolkata` (UTC+05:30): il file ICS contiene questi istanti in UTC, così il calendario di ogni ospite può mostrarli nel proprio fuso. Non sono specificati orari di fine o durate. Sono inclusi i collegamenti Maps forniti per il 21 e il 25. Il conto alla rovescia termina all’inizio della cerimonia, il 26 giugno alle 10:30 in Kerala.
