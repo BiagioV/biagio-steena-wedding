@@ -172,3 +172,4 @@ html[lang=ml] .family-name,html[lang=ml] .families-amp{font-family:'Cormorant Ga
 .event-extra svg{width:16px;height:20px;flex-shrink:0;margin-top:1px;stroke-width:1.4}
 .event:first-child .event-description{min-height:0}
 .events .event-details{margin-top:auto}.events .event-description{margin-bottom:25px}.events .event-extra{margin:8px 0 2px}.event>.text-link{margin-top:0}
+.faq-family{font-family:var(--serif);font-style:italic;font-size:1.3em;color:var(--burgundy);white-space:nowrap}
